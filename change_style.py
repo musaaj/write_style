@@ -8,7 +8,7 @@ import sys
 
 def main():
     """main entry"""
-    for arg in sys.argv:
+    for arg in sys.argv[1:]:
         try:
             edit(arg)
         except Exception:
